@@ -1,0 +1,290 @@
+<html lang="en">
+<head>
+  <title>Mr.Burger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Fruktur" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Devonshire" rel="stylesheet">
+  <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+    <style>
+        @font-face{
+            font-family:"DCC-Ash";
+            src:url("fonts/DCC - Ash.otf");
+        }
+     .navbar-default{
+         position: fixed;
+         top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 800;
+        background: rgba(255, 255, 255, 0.8);
+      }
+      .navbar-brand{
+         
+          font-weight: 700;
+      }
+      .navbar{
+          padding: 10px;
+      }
+        .container-fluid{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .ab2{
+            text-align: center;
+            font-size: 30px;
+            padding:40px;
+        }
+        .ab2 span{
+           color: #630426;
+        }
+     .vbg{
+            position:relative;
+            text-align: center;
+            overflow:hidden;
+                padding:0;
+                background: transparent;
+        } 
+        .vbg .outside {
+            background: rgba(255, 255, 255, 0.9);
+            max-width: 60%;
+            margin: 0 auto;
+            padding: 1em; 
+        }  
+        .vbg .outside .inside {
+            padding: 3.5em 5em;
+            border: 1px solid #DBE0D4; 
+        }
+        
+        .vbg .header {
+            margin-bottom: 2em;
+        }
+        .header p {
+        font-size: 1.9em;
+      line-height: 1.25;
+      text-transform: uppercase;
+      font-family: "DCC-Ash";
+        }
+        .vbg .copy{
+            margin-bottom: 2em;
+            text-align: center;
+        }
+        .copy p{
+            font-size: 1.8em;
+        }
+       .loyalty .copy p:before {
+      content: url(checkmark.svg);
+      position: absolute;
+      width: 1.25em;
+      left: -1.75rem;
+      top: -1.2rem; }
+    .loyalty .content {
+        padding: 5em 0 7.5em 7.5em;
+        }
+  .loyalty .header {
+    margin-bottom: 3em; 
+        }
+  .loyalty .copy p {
+    font-size: 1.4em;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    margin-bottom: 2rem; 
+        }
+        
+        .work .header p {
+    font-size: 3em;
+    line-height: 1.25;
+    color: #182D35;
+    text-transform: uppercase;
+    font-family: "DCC-Ash";
+        }
+.work .bottom .copy p {
+    color:#182D35;
+    font-family: "DCC-Ash";
+    font-size: 2.2em; 
+    text-align: center;
+        }
+footer {
+  position: relative;
+  background: #EBE0B8;
+  background-image: url("craft_texture_backgroundweb.jpg");
+  background-size: cover;
+  z-index: 50;
+        }
+footer .logo{
+    margin-bottom: 2em;
+    padding-left: 4.2em;
+    padding-top: 3.1em;
+        }
+   footer .social a {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 2.5em;
+      margin: 0 2em; }
+    footer .social img {
+      height: 2.0em; }
+  footer nav li 
+        {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3334%;
+    margin-bottom: 1em;
+        }
+   
+  footer nav span 
+        {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #182D35;
+    font-family: "DCC-Ash"; 
+        }
+
+    footer .copyright p 
+        {
+      color: #182D35;
+      font-size: 1.2em;
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+      margin-left: 2em;
+        }
+    
+    </style>
+    </head>
+    <body class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="burger.html" style="color:#630426;font-family: DCC-Ash;font-size:2.6em "><bold>Mr. BurGer</bold></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" >
+        <li ><a href="#about" style="color: #630426;font-family: DCC-Ash;font-size:2em ">HOME</a></li>
+        <li><a href="#services" style="color:#630426;font-family: DCC-Ash;font-size:2em ">CATERING</a></li>
+        <li><a href="Aboutus.html" style="color:#630426;font-family: DCC-Ash;font-size:2em ">LOYALITY</a></li>
+        <li><a href="#contact" style="color:#630426;font-family: DCC-Ash;font-size:2em ">CONTACT</a></li>
+        <li><a href="blogin.php" style="color:#630426;font-family: DCC-Ash;font-size:2em ">LOGIN</a></li>
+        <li><a href="bregister.html" style="color: #630426;font-family: DCC-Ash;font-size:2em ">REGISTER</a></li>
+      </ul> 
+    </div>
+  </div>
+</nav>
+        <div id="about" class=" text-center">
+            <div class="ab1 container-fluid" style="padding-top: 5em;">
+            <img src="about_section.jpg" alt="ab1" width="100%">
+            </div>
+            <div class="ab2 container" style="font-family: 'Kanit', sans-serif;">
+                <p>We’re on a mission to challenge the way people think about burgers. We’re about creative construction. We think life is about experiences. Trying stuff. Learning. Being Inventive. So we’ve searched for ingredients, chosen quality meats, inventive sauces, toasted buns, melted cheeses and blended shakes that shout flavor. Show us what you’ve got.</p>
+               <p style=" font-family: 'Devonshire', cursive;font-size: 35px;">cr<span >eat</span>e endlessly</p>
+            </div>
+        </div>
+        <div id="impossible container-fluid">
+             <img src="SPECIALS_Website_Seasonal_Impossible_9-17_V2.jpg" alt="ab1" width="100%">
+        </div>
+        <div class="vbg container-fluid">
+            <div class="fullscreen-video-wrap">
+                <video src="catering.mp4" autoplay="true" loop="true" width="100%"></video>
+            </div>
+          <div class="row">
+                <div class="columns">
+                    <div class="outside">
+                        <div class="inside">
+                            <div class="header"><p>CATERING: BURGER BARS & BEYOND</p></div>
+                            <div class="copy"><p>It is possible to satisfy everyone, even Joe in Accounting, who likes nothing yet wants everything. Custom deliciousness for meetings, birthdays, anniversary celebrations, tailgating, pillow fights, binge watching, etc. You get the gist. With our custom burger bar, we’ve got you. And Joe.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+     
+        <div class="bur container-fluid">
+            <img src="static_gallery.jpg" alt="burg" width="100%">
+        </div>
+        <section class="loyalty" style="background-image:url(craft_texture_backgroundweb.jpg)">
+            <div class="row relative">
+                <div class="col-md-5">
+                    <img src="BURGERS WITH BENEFITS.png" alt="Loyalty" />
+                    <img src="CARDS.png" alt="Loyalty" />
+                </div>
+                <div class="col-md-7 content" style="padding-left: 8em;text-align: center;">
+                    <div class="header ">
+                        <img src="Join our CounterPoints Loyalty program.png" alt="Loyalty" />
+                    </div><div class="copy">
+                    <div><p>  <b>Free fries instantly </b>&nbsp;when you sign up then register your card </p></div>
+                    <div><p>  <b>Exclusive offers </b>&nbsp;for Counter Points members only </p></div>
+                    <div><p>  <b>Birthday Cake Shake </b>&nbsp;on your special day </p></div>
+                    <div><p>  <b>Earn 10 points </b>&nbsp;for every $1 spent </p></div>
+                    <div><p>  <b>Surprise rewards </b>&nbsp;all year </p></div>
+                    <div><p>  <b>Special tasting events </b>&nbsp;for members only </p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work">
+                    <div class="top">
+                        <div class="row">
+                            <div class="columns">
+                                <div class="header" style="padding: 2em 0;text-align: center">
+                                    <p>WORK WITH US! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="middle"><img src="workhere.jpg" alt="" width="100%"/></div>
+                    <div class="bottom">
+                        <div class="row">
+                            <div class="columns">
+                                <div class="copy" style="padding: 0.6em;">
+                                    <p><a href="bregister.html" style="text-decoration: underline;font-size: 1.2em; color: #182D35">Apply here </a></p>
+                                </div></div></div></div>
+                </section>
+        <footer>
+    <div class="row relative" style="padding: 1.5em 0;">
+        <div class="col-md-4">
+            <div class="logo" >
+                <h1 style="color: #630426;font-family: DCC-Ash;font-size:6em">Mr. BurGer</h1>
+            </div>
+            <div class="social" style="text-align: center">
+                <a href="#" target="_blank">
+                    <img src="facebook_navy.svg" alt="Facebook" />
+                </a>
+                <a href="#" target="_blank">
+                    <img src="twitter_navy.svg" alt="Twitter" />
+                </a>
+                <a href="#" target="_blank">
+                    <img src="instagram_navy.svg" alt="Instagram" />
+                </a>
+            </div>
+        </div>
+        <div class="col-md-8 medium-offset-1 end">
+            <nav>
+                <ul>
+                    <li><a href="burger.html"><span>home </span></a></li>
+                    <li><a href="#"><span>menu </span></a></li>
+                    <li><a href="#"><span>locations </span></a></li>
+                    <li><a href="#" target="_blank"><span>order online </span></a></li>
+                    <li><a href="#"><span>catering </span></a></li>
+                    <li><a href="#" target="_blank"><span>loyalty </span></a></li>
+                    <li><a href="#"><span>contact </span></a></li>
+                    <li><a href="franchise.html"><span>franchise </span></a></li>
+                    <li><a href="#"><span>privacy </span></a></li>
+                    <li><a href="#"><span>terms and conditions </span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="copyright" style="text-align: center;padding-bottom: 1em">
+        <p>&copy;Mr. BurGer 2018 </p>
+    </div>
+</footer>
+    </body>
+</html>
